@@ -8,6 +8,12 @@ public class MessageThreeTimes {
 
         System.out.println("Write a message:");
         // Write your program here
+        // Store the users input to the string variable 'message'
+        String message = scanner.nextLine();
 
+        // Print out the value of the variable 'message' three consecutive times
+        System.out.println(message);
+        System.out.println(message);
+        System.out.println(message);
     }
 }
